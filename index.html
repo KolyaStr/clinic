@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Клініка</title>
+</head>
+<body>
+    <header>
+        <img class="backrgound_photo" src="image/background.jpg"/>
+        <img class="logotype" src="image/logo.svg"/>
+        <h1 class="name">HealthCare</h1>
+        <p class="number">Телефонуйте безкоштовно: <br> +380-93-03-03-030</p>
+        <nav class="mainNav" >
+            <div>
+                <ul>
+                    <li class="index"><a href="index.html"> <b>Головна</b></a></li>
+                    <li class="doctors"><a href="doctors.html">Лікарі</a></li>
+                    <li class="services"><a href="services.html">Послуги</a></li>
+                    <li class="insurance"><a href="insurance.html">Страхування</a></li>
+                    <li class="contacts"><a href="contacts.html">Контакти</a></li>
+                    <li class="online"><a href="online.html">Онлайн-запис</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2 class="text_signUp">Запишіться на прийом зараз!</h2>
+            <div>
+                
+                <img onclick="prev()" class="left_arrow" src="image/left_arrow.svg">
+                <img class="photo" id="slider" src="image/doctor1.png"/>
+                <img onclick="next()" class="right_arrow" src="image/right_arrow.svg">
+                <div>
+                    <p class="text">Погано себе почуваєте? Запишіться<br>
+                    на прийом просто зараз.<br>
+                    Найкращі лікарі міста нададуть<br>
+                    вам квафілікаційну допомогу<br>
+                    та вилікують від будь-якої хвороби.</p>
+                    
+                </div>
+                <form action="online.html">
+                    <button class="signUp" >Записатись зараз</button>
+                </form>
+                
+            </div> 
+        </div>
+        <div>
+            <h2 class="about_us_main">
+                ПРО НАС
+            </h2>
+            <div class="about_us">
+                <p>
+                    Сімейна клініка «HealthCare» – вже давно<br> 
+                    стала синонімом якісної, комфортної та<br> 
+                    головне – доступної приватної медицини.<br> 
+                    Це сучасний медичний центр, який має<br> 
+                    кілька відділень та працює без вихідних.<br>  
+                    На рецепції вас зустрінуть привітні<br>  
+                    адміністратори, які зроблять все<br> 
+                    можливе, щоб ваше перебування у клініці<br> 
+                    було максимально комфортним.Кожен<br>  
+                    лікар центру виконує свою справу професійно<br>  
+                    та віддано, тим самим допомагаючи<br>  
+                    дорослим та маленьким пацієнтам<br>  
+                    берегти найголовніше – здоров'я.<br> 
+                    Клініка відома не лише своїми<br> 
+                    спеціалістами, а й обладнанням.
+                </p>
+            </div>
+        </div>
+        <div >
+            <h2 class="charity_main"> БЛАГОДІЙНІСТЬ</h2>
+            <div class="charity">
+                <img class="heart" src="image/heart.png"/>
+                <h3 class="you_can_save">ВИ МОЖЕТЕ<br> 
+                    ВРЯТУВАТИ ЖИТТЯ!
+                </h3>
+                <button class="charity_button">Зв’язатись із нами</button>
+
+            </div>
+        </div>
+        <div>
+            <h2 class="our_services_main">НАШІ ПОСЛУГИ</h2>
+            <div class="our_services">
+                <ul class="services_list">
+                    <li>Магнітно резонансна терапія</li>
+                    <p></p>
+                    <li>Ультразвукова діагностика</li>
+                    <p></p>
+                    <li>Лабараторні аналізи</li>
+                    <p></p>
+                    <li>Хірургія</li>
+                    <p></p>
+                    <li>Ортопедія</li>
+                    <p></p>
+                    <li>Дерматологія</li>
+                    <p></p>
+                    <li>Терапія</li>
+                    <p></p>
+                    <li>Стопатологія</li>
+                    <p></p>
+                    <li>Гінекологія</li>
+                    <p></p>
+                    <li>Реабілітація</li>
+                    <p></p>
+                    <li>Офтальмологія</li>
+                    <p></p>
+                    <li>Фізіологічні процедури</li>
+                    <p></p>
+                    <li>Кардіологія</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="main_footer">
+        <div>
+            <img class="logotype_footer" src="image/logo.svg"/>
+            <h1 class="name_footer">HealthCare</h1>
+            <h2 class="number_footer">+380-93-03-03-030</h2>
+            <h2 class="email">healthcare@gmail.com</h2>
+        </div>
+        <div>
+            <p class="schedule">пн – пт   8:00–19:00 <br>
+                субота   9:00–17:30<br>
+                неділя   вихідний<br>
+            </p>
+            <img class="facebook" src="image/facebook.svg" >
+            <img class="insta" src="image/insta.svg">  
+        </div>
+
+    </footer>
+    <script>
+        var images = ["image/doctor1.png","image/doctor2.jpg","image/doctor3.jpg"];
+        var num = 0;
+
+        function next(){
+            var slider = document.getElementById("slider");
+            num++;
+            if(num>=images.length){
+                num = 0;
+            }
+            slider.src = images[num];
+        }
+
+        function prev(){
+            var slider = document.getElementById("slider");
+            num--;
+            if(num<0){
+                num = images.length-1;
+            }
+            slider.src = images[num];
+        }
+    </script>
+</body>
+</html>

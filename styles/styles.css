@@ -1,0 +1,767 @@
+.logotype{
+    position: absolute;
+width: 175px;
+height: 174px;
+left: 19px;
+top: 27px;
+}
+.backrgound_photo{
+    width: 100vw;
+}
+.name{
+    position: absolute;
+width: 353px;
+height: 88px;
+left: 224px;
+top: 25px;
+font-size: 58pt;
+}
+.number{
+    position: absolute;
+width: 469px;
+height: 84px;
+left: 931px;
+top: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+.mainNav ul{
+    margin: 0;
+    padding: 0;
+}
+.mainNav{
+    position: absolute;
+    width: 833px;
+height: 28px;
+left: 349px;
+top: 195px;
+
+}
+.mainNav li{
+    float: left;
+    list-style-type: none;
+}
+.mainNav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+    
+}
+.mainNav li a:hover{
+    font-weight: bold;
+}
+.index{
+    width: 100px;
+}
+.doctors{
+    width: 80px;
+}
+.services{
+    width: 110px;
+}
+.insurance{
+    width: 125px;
+}
+.contacts{
+    width: 120px;
+}
+.online{
+    width: 140px;
+}
+
+.left_arrow{
+    position: absolute;
+width: 28px;
+height: 75px;
+left: 11px;
+top: 152px;
+}
+.right_arrow{
+    position: absolute;
+width: 28px;
+height: 75px;
+left: 515px;
+top: 153px;
+}
+.photo{
+    position: absolute;
+width: 439px;
+height: 337px;
+float: right;
+background-color: white;
+left: +55px;
+top: +40px;
+}
+.card{
+    position: absolute;
+width: 1026px;
+height: 410px;
+left: 207px;
+top: 243px;
+background: #F2F1F1;
+}
+.text_signUp{
+    position: absolute;
+width: 390px;
+height: 33px;
+left: +615px;
+top: +15px;
+}
+.text{
+    position: absolute;
+width: 340px;
+height: 115px;
+left: +565px;
+top: +110px;
+}
+.signUp{
+    position: absolute;
+width: 381px;
+height: 73px;
+left: +585px;
+top: +280px;
+background-color: #BBE5EF;
+font-weight: 700;
+font-size: 22px;
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+border: 1px;
+background: rgb(126, 181, 217);
+}
+p{
+    font-size: 20px;
+    line-height: 23px; 
+    padding: 0 0 0 25px;
+}
+.about_us{
+    background: #F2F1F1;
+    position: absolute;
+width: 490px;
+height: 385px;
+left: 62px;
+top: 785px;
+}
+.about_us_main{
+    position: absolute;
+left: 107px;
+top: 717px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+}
+.charity_main{
+    position: absolute;
+left: 107px;
+top: 1200px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+}
+.charity{
+    position: absolute;
+width: 491px;
+height: 184px;
+left: 62px;
+top: 1282px;
+
+background: #F2F1F1;
+}
+.you_can_save{
+    position: absolute;
+width: 235px;
+height: 56px;
+left: 240px;
+top: 25px;
+}
+.charity_button{
+    position: absolute;
+width: 236px;
+height: 40px;
+left: 240px;
+top: 115px;
+background-color: #BBE5EF;
+
+font-weight: 700;
+font-size: 20px;
+line-height: 122.69%;
+}
+.heart{
+    padding: 22px 0 22px 15px;
+}
+.our_services_main{
+    position: absolute;
+height: 35px;
+left: 865px;
+top: 717px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+}
+.our_services{
+    position: absolute;
+width: 491px;
+height: 684px;
+left: 820px;
+top: 785px;
+
+background: #F2F1F1;
+}
+.services_list{
+    position: absolute;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+}
+.main_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 1522px;
+
+background: #BBE5EF;
+}
+.logotype_footer{
+    position: absolute;
+left: 20px;
+top: 100px;
+
+font-weight: 800;
+font-size: 72px;
+line-height: 122.69%;
+}
+.name_footer{
+    position: absolute;
+width: 353px;
+height: 88px;
+left: 230px;
+top: 50px;
+
+font-size: 72px;
+}
+.number_footer{
+    position: absolute;
+width: 330px;
+height: 42px;
+left: 230px;
+top: 170px;
+
+font-size: 36px;
+}
+.email{
+    position: absolute;
+width: 313px;
+height: 35px;
+left: 230px;
+top: 210px;
+
+font-size: 30px;
+}
+.schedule{
+    position: absolute;
+width: 336px;
+height: 107px;
+left: 1065px;
+top: 100px;
+
+font-size: 30px;
+line-height: 122.69%;
+text-align: right;
+
+}
+.facebook{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 1241px;
+top: 255px;
+}
+.insta{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 1331px;
+top: 255px;
+}
+.doctors_main{
+    position: absolute;
+    left: 100px;
+top: 20px;
+
+font-size: 30px;
+line-height: 35px;
+}
+.text_doctors_main{
+    position: absolute;
+left: 40px;
+top: 80px;
+
+font-size: 20px;
+line-height: 26px;
+}
+.card_doctors_main{
+    position: absolute;
+    width: 1026px;
+    height: 350px;
+    left: 207px;
+    top: 243px;
+    background: #F2F1F1;
+}
+
+.card_doctor1{
+    position: absolute;
+width: 1354px;
+height: 381px;
+left: 43px;
+top: 617px;
+
+background: #F2F1F1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card_doctor2{
+    position: absolute;
+width: 1354px;
+height: 381px;
+left: 40px;
+top: 1066px;
+
+background: #F2F1F1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_doctor3{
+    position: absolute;
+width: 1354px;
+height: 381px;
+left: 40px;
+top: 1517px;
+
+background: #F2F1F1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.doctor_img{
+    position: absolute;
+    width: 486px;
+    height: 381px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name_doctor{
+    position: absolute;
+    width: 574px;
+    height: 42px;
+    left: 535px;
+    top: 10px;
+    
+    font-size: 36px;
+    line-height: 42px;
+}
+.text_doctor{
+    position: absolute;
+    width: 783px;
+    height: 175px;
+    left: 510px;
+    top: 80px;
+
+    font-size: 20px;
+    line-height: 25px;
+}
+.doctors_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 2024px;
+
+background: #BBE5EF;
+}
+.card_services_main{
+    position: absolute;
+    width: 1026px;
+    height: 350px;
+    left: 207px;
+    top: 243px;
+    background: #F2F1F1;
+}
+.services_main{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    
+    font-size: 30px;
+    line-height: 35px;
+}
+.text_services_main{
+    position: absolute;
+left: 40px;
+top: 80px;
+
+font-size: 20px;
+line-height: 26px;
+}
+.services_names h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+}
+.nevrology{
+    position: absolute;
+left: 117px;
+top: 592px;
+}
+.cardiology{
+    position: absolute;
+    left: 567px;
+    top: 592px;
+}
+.ortoped{
+    position: absolute;
+    left: 1014px;
+    top: 592px;
+}
+.therapy{
+    position: absolute;
+    left: 117px;
+    top: 1094px;
+}
+.infection{
+    position: absolute;
+    left: 567px;
+    top: 1094px;
+    
+}
+.surgery{
+    position: absolute;
+    left: 1014px;
+    top: 1094px;
+}
+.nevrology_card{
+    position: absolute;
+left: 69px;
+top: 670px;
+
+}
+.cardiology_card{
+    position: absolute;
+left: 524px;
+top: 670px;
+}
+.ortoped_card{
+    position: absolute;
+left: 979px;
+top: 670px;
+}
+.therapy_card{
+    position: absolute;
+left: 69px;
+top: 1170px;
+}
+.infection_card{
+    position: absolute;
+    left: 524px;
+    top: 1170px;
+}
+.surgery_card{
+    position: absolute;
+    left: 979px;
+    top: 1170px;
+    
+}
+.services_names div{
+    width: 392px;
+    height: 376px; 
+    background: #F2F1F1;  
+}
+.services_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 1620px;
+
+background: #BBE5EF; 
+}
+.companies_insurance_main{
+    position: absolute;
+left: 80px;
+top: 622px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+}
+.companies_insurance{
+    position: absolute;
+    width: 491px;
+    height: 630px;
+    left: 52px;
+    top: 695px;
+    
+    background: #F2F1F1;
+}
+.companies_insurance__list{
+    position: absolute;
+left: 40px;
+top: 10px;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+}
+.answer_main{
+    position: absolute;
+left: 748px;
+top: 622px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+}
+.answer{
+    position: absolute;
+width: 671px;
+height: 630px;
+left: 720px;
+top: 695px;
+
+background: #F2F1F1;
+}
+.insurance_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 1460px;
+
+background: #BBE5EF; 
+}
+.card_contacts_main{
+    position: absolute;
+    width: 1026px;
+    height: 350px;
+    left: 207px;
+    top: 243px;
+    background: #F2F1F1;
+}
+.contacts_main{
+    position: absolute;
+left: 65px;
+top: 0px;
+
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+
+}
+.input_field1{
+    position: absolute;
+width: 511px;
+height: 39px;
+left: 45px;
+top: 85px;
+}
+.input_field2{
+    position: absolute;
+width: 511px;
+height: 39px;
+left: 45px;
+top: 140px;
+}
+.input_field3{
+    position: absolute;
+width: 511px;
+height: 39px;
+left: 45px;
+top: 195px;
+}
+.input_field4{
+    position: absolute;
+width: 418px;
+height: 149px;
+left: 576px;
+top: 85px;
+}
+.contacts_button{
+    position: absolute;
+    width: 381px;
+    height: 73px;
+    left: 615px;
+    top: 260px;
+    background-color: #BBE5EF;
+    font-weight: 700;
+    font-size: 22px;
+}
+.map{
+    position: absolute;
+width: 959px;
+height: 610px;
+left: 240px;
+top: 638px;
+}
+.adress{
+    position: absolute;
+left: 107px;
+top: 1291px;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+}
+.shedule_text{
+    position: absolute;
+left: 1148px;
+top: 1316px;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: right;
+}
+.contacts_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 1460px;
+
+background: #BBE5EF; 
+}
+.nevrology_online{
+    position: absolute;
+    width: 134px;
+    height: 27px;
+    left: 83px;
+    top: 15px;
+}
+.cardiology_online{
+    position: absolute;
+    width: 142px;
+    height: 27px;
+    left: 83px;
+    top: 15px;
+}
+.ortoped_online{
+    position: absolute;
+    width: 122px;
+    height: 27px;
+    left: 83px;
+    top: 15px;
+}
+.therapy_online{
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 95px;
+    top: 15px;
+    
+}
+.infection_online{
+    position: absolute;
+    width: 155px;
+    height: 27px;
+    left: 70px;
+    top: 15px;
+}
+.surgery_online{
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: 110px;
+    top: 15px;
+}
+.nevrology_card_online{
+    position: absolute;
+width: 300px;
+height: 273px;
+left: 169px;
+top: 662px;
+background: #F2F1F1;
+}
+.cardiology_card_online{
+    position: absolute;
+    width: 300px;
+    height: 273px;
+    left: 570px;
+    top: 662px;
+    background: #F2F1F1;
+}
+.ortoped_card_online{
+    position: absolute;
+    width: 300px;
+    height: 273px;
+    left: 971px;
+    top: 662px;
+    background: #F2F1F1;
+}
+.therapy_card_online{
+    position: absolute;
+    width: 300px;
+    height: 273px;
+    left: 169px;
+    top: 1018px;
+    background: #F2F1F1;
+}
+.infection_card_online{
+    position: absolute;
+    width: 300px;
+    height: 273px;
+    left: 570px;
+    top: 1018px;
+    background: #F2F1F1;
+}
+.surgery_card_online{
+    position: absolute;
+    width: 300px;
+    height: 273px;
+    left: 971px;
+    top: 1018px;
+    background: #F2F1F1;
+}
+.online_names p{
+    position: absolute;
+width: 76px;
+height: 59px;
+left: 95px;
+top: 95px;
+text-align: center;
+}
+.button_online{
+    position: absolute;
+    width: 188px;
+    height: 52px;
+    left: 55px;
+    top: 200px;
+    
+    background-color: #BBE5EF;  
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 122.69%;
+}
+.online_footer{
+    position: absolute;
+    width: 100vw;
+height: 336px;
+left: 0px;
+top: 1460px;
+
+background: #BBE5EF; 
+}
