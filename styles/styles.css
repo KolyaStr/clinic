@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+.information{
+    padding: 80px 30px 30px 60px;
+
+    font-size: 20px;
+    line-height: 26px;
+}
 .logotype{
     position: absolute;
 width: 175px;
@@ -224,7 +230,6 @@ top: 785px;
 background: #F2F1F1;
 }
 .services_list{
-    position: absolute;
 font-weight: 400;
 font-size: 20px;
 line-height: 25px;
@@ -308,13 +313,6 @@ top: 20px;
 font-size: 30px;
 line-height: 35px;
 }
-.text_doctors_main{
-    position: absolute;
-padding: 80px 30px 30px 60px;
-
-font-size: 20px;
-line-height: 26px;
-}
 .card_doctors_main{
     position: absolute;
     width: 1026px;
@@ -323,7 +321,6 @@ line-height: 26px;
     top: 243px;
     background: #F2F1F1;
 }
-
 .card_doctor1{
     position: absolute;
 width: 1354px;
@@ -409,13 +406,6 @@ background: #BBE5EF;
     
     font-size: 30px;
     line-height: 35px;
-}
-.text_services_main{
-    position: absolute;
-padding: 80px 30px 30px 60px;
-
-font-size: 20px;
-line-height: 26px;
 }
 .services_names h2{
     font-weight: 800;
