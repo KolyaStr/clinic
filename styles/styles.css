@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .logotype{
     position: absolute;
 width: 175px;
