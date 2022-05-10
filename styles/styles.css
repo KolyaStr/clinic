@@ -412,8 +412,7 @@ background: #BBE5EF;
 }
 .text_services_main{
     position: absolute;
-left: 40px;
-top: 80px;
+padding: 80px 30px 30px 60px;
 
 font-size: 20px;
 line-height: 26px;
