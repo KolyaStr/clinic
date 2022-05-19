@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x:hidden;
 }
 .information{
     padding: 80px 30px 30px 60px;
